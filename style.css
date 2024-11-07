@@ -1,12 +1,20 @@
 a[target="_top"]{
     background-color: yellow;
 }
-
+.class1{
+    background-color: orange;
+}
+.class1 .class2{
+    background-color: white;
+}
 .class1 .class2 .class3{
-    width: 500px;
-    background-color: aquamarine;
+    background-color: green;
 
 }
-div[data-color="red"]{
+/* div[data-color="red"]{
     color:  red;
+} */
+
+div span {
+    background-color: red;
 }
